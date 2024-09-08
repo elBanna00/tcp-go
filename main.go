@@ -60,7 +60,7 @@ func (s *Server) readLoop(conn net.Conn) {
 		}
 
 		msg := buf[:n]
-		fmt.Println(msg)
+		fmt.Println(string(msg))
 	}
 
 }
